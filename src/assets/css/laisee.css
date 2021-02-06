@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    width: 20vw;
+    height: 60vh;
+    background-color: red;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
