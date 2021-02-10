@@ -1,10 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState, useContext} from 'react'
 import {BrowserRouter as Router, Switch, Route, useHistory } from 'react-router-dom';
 import '../assets/css/register.css'
+import { ParticipantContext } from '../ParticipantContext';
 
 export default function Register() {
+    
     const [username, setUsename] = useState("");
     const [error, setError] = useState("");
+    const {participant, setParticipant} = useContext(ParticipantContext);
 
     const handleErrors = async (response) => {
         if (!response .ok){
@@ -29,6 +32,7 @@ export default function Register() {
         })
         .then(handleErrors)
         .then(()=>{
+            setParticipant(username)
             history.push("/laisee")
         })
         .catch((error)=>{
@@ -43,13 +47,13 @@ export default function Register() {
         <div className="container">
             <div className="center">
                 <h1 className="title">
-                    ACS' Lunar New Year Red Envelope Event
+                    ACS' Lunar New Year Red Envelope Event 
                 </h1>
-                {error && (<span style={{color: 'red'}}>{error}</span>)}
+                {error && (<span style={{color: '#e0bf00 '}}>{error}</span>)}
                 <form onSubmit={login}>
-                <input onChange={(e)=>{setUsename(e.target.value)}} type="text" name="name" className="question" id="nme" required autoComplete="off" />
+                <input onChange={(e)=>{setUsename(e.target.value)}} type="text" name="name" className="question writing" id="nme" required autoComplete="off" />
                     <label htmlFor="nme">
-                        <span >Enter your RIT username</span>
+                        <span >Enter your RIT email</span>
                     </label>
                     <input type="submit" value="Submit!" />
                 </form>

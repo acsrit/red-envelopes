@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import React, {useState} from 'react';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Register from './pages/Register';
 import Laisee from './pages/Laisee';
+import Prize from './pages/Prize';
+import { ParticipantContext } from './ParticipantContext';
 
 function App() {
+  const [participant, setParticipant] = useState(null)
 
   return (
     <div className="App">
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <Register/>
-          </Route>
-          <Route exact path ="/laisee">
-            <Laisee/>
-          </Route>
-        </Switch>
-      </Router>
+        <Router>
+          <Switch>
+            <ParticipantContext.Provider value={{participant, setParticipant}}>
+              <Route exact path="/" component={Register}></Route>
+              <Route exact path ="/laisee" component={Laisee}></Route>
+              <Route exact path ="/prize" component={Prize}></Route>
+            </ParticipantContext.Provider>
+          </Switch>
+        </Router>
     </div>
   );
 }
