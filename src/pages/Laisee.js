@@ -9,7 +9,7 @@ export default function Laisee() {
     const [number, setNumber] = useState("");
 
     const getPrize = () => {
-        let url = new URL('http://localhost:4000/prize');
+        let url = new URL('https://acslunarnewyear.herokuapp.com/prize');
         url.search = new URLSearchParams({
             username: participant,
         })
@@ -28,7 +28,7 @@ export default function Laisee() {
     }
 
     const deletePrize = (number) => {
-        fetch(`http://localhost:4000/delete`, {
+        fetch(`https://acslunarnewyear.herokuapp.com/delete`, {
             method: "DELETE",
             headers:{
                 "Content-Type": "application/json", 

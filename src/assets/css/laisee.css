@@ -19,3 +19,19 @@ button {
     color: #e0bf00;
     font-size: 300%;
 }
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+        button {
+            width: 80vw;
+            height: 60vh;
+            background-color: red;
+        }
+
+        .prize{
+            color: #e0bf00;
+            font-size: 100%;
+        }
+    }

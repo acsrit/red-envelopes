@@ -21,7 +21,7 @@ export default function Register() {
 
     const login  = (e) => {
         e.preventDefault();
-        fetch(`http://localhost:4000/register`, {
+        fetch(`https://acslunarnewyear.herokuapp.com/register`, {
             method: "POST",
             headers:{
                 "Content-Type": "application/json", 
@@ -55,7 +55,7 @@ export default function Register() {
                     <label htmlFor="nme">
                         <span >Enter your RIT email</span>
                     </label>
-                    <input type="submit" value="Submit!" />
+                    <input type="submit" value="Enter!" />
                 </form>
             </div>
         </div>
