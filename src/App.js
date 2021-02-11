@@ -14,7 +14,7 @@ function App() {
         <Router>
           <Switch>
             <ParticipantContext.Provider value={{participant, setParticipant}}>
-              <Route exact path="/" component={Register}></Route>
+              <Route exact path="/red-envelopes" component={Register}></Route>
               <Route exact path ="/laisee" component={Laisee}></Route>
               <Route exact path ="/prize" component={Prize}></Route>
             </ParticipantContext.Provider>
