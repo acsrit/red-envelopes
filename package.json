@@ -16,8 +16,10 @@
     "express.js": "^1.0.0",
     "mongoose": "^5.11.15",
     "nodemon": "^2.0.7",
+    "party-js": "^1.0.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-dom-confetti": "^0.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "web-vitals": "^1.1.0"

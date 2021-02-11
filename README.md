@@ -7,4 +7,4 @@ Web application developed for **ACS** during the **Lunar New Year 2021**. Year o
 - Make sure to have **[Node.js](https://nodejs.org/en/)** installed. 
 - **Clone** the code. 
 - In the terminal inside the project run  `npm install`
-- Finally `npm start`
+- Finally `npm start`z
