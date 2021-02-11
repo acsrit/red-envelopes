@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/red-envelopes/static/css/main.82f750ec.chunk.css",
+    "main.js": "/red-envelopes/static/js/main.56512169.chunk.js",
+    "main.js.map": "/red-envelopes/static/js/main.56512169.chunk.js.map",
+    "runtime-main.js": "/red-envelopes/static/js/runtime-main.9b07e9c6.js",
+    "runtime-main.js.map": "/red-envelopes/static/js/runtime-main.9b07e9c6.js.map",
+    "static/js/2.11b3a97b.chunk.js": "/red-envelopes/static/js/2.11b3a97b.chunk.js",
+    "static/js/2.11b3a97b.chunk.js.map": "/red-envelopes/static/js/2.11b3a97b.chunk.js.map",
+    "static/js/3.44b4d032.chunk.js": "/red-envelopes/static/js/3.44b4d032.chunk.js",
+    "static/js/3.44b4d032.chunk.js.map": "/red-envelopes/static/js/3.44b4d032.chunk.js.map",
+    "index.html": "/red-envelopes/index.html",
+    "static/css/main.82f750ec.chunk.css.map": "/red-envelopes/static/css/main.82f750ec.chunk.css.map",
+    "static/js/2.11b3a97b.chunk.js.LICENSE.txt": "/red-envelopes/static/js/2.11b3a97b.chunk.js.LICENSE.txt",
+    "static/media/register.css": "/red-envelopes/static/media/background.667cc732.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b07e9c6.js",
+    "static/js/2.11b3a97b.chunk.js",
+    "static/css/main.82f750ec.chunk.css",
+    "static/js/main.56512169.chunk.js"
+  ]
+}
