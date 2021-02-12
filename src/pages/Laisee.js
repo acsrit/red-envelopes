@@ -6,18 +6,18 @@ import Confetti from 'react-dom-confetti';
 export default function Laisee() { 
 
     const config = {
-        angle: "210",
-        spread: 360,
-        startVelocity: 40,
-        elementCount: 70,
+        angle: 90,
+        spread: "24",
+        startVelocity: "52",
+        elementCount: "35",
         dragFriction: 0.12,
-        duration: 3000,
+        duration: "10000",
         stagger: 3,
-        width: "10px",
-        height: "10px",
+        width: "13px",
+        height: "11px",
         perspective: "500px",
         colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"]
-    };
+      };
 
 
     const {participant, setParticipant} = useContext(ParticipantContext);
@@ -61,8 +61,8 @@ export default function Laisee() {
     return (
         <div>
             <div className="container">
-                {!prize ? <button onClick={getPrize}></button> : <h2 className="prize">{prize}</h2>}
-                <Confetti active={completed} config = {config}/>
+                {!prize ? <button onClick={getPrize}></button> : <h2 className="prize">{prize}</h2>}\
+                <div className="confetti"><Confetti active={completed} config = {config}/></div>
             </div>
         </div>
     )

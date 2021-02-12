@@ -23,6 +23,12 @@ button {
     font-size: 300%;
 }
 
+.confetti{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
 @media only screen 
     and (device-width : 375px) 
     and (device-height : 812px) 
