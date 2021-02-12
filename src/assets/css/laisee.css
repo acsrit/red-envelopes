@@ -4,9 +4,12 @@
 }
 
 button {
-    width: 20vw;
-    height: 60vh;
-    background-color: red;
+    width: 400px;
+    height: 500px;
+    background-image: url('../images/red-envelope.png');
+    background-size: 100%;
+    padding: 0;
+    border: none;
 }
 
 .container{
@@ -25,9 +28,12 @@ button {
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) { 
         button {
-            width: 80vw;
-            height: 60vh;
-            background-color: red;
+            width: 300px;
+            height: 390px;
+            background-image: url('../images/red-envelope.png');
+            background-size: 100%;
+            padding: 0;
+            border: none;
         }
 
         .prize{

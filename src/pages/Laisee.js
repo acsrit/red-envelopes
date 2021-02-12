@@ -19,6 +19,7 @@ export default function Laisee() {
         colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"]
     };
 
+
     const {participant, setParticipant} = useContext(ParticipantContext);
     const [prize, setPrize] = useState("")
     const [number, setNumber] = useState("");
