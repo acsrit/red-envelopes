@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/red-envelopes/static/css/main.25d48064.chunk.css",
+    "main.css": "/red-envelopes/static/css/main.14fca0fc.chunk.css",
     "main.js": "/red-envelopes/static/js/main.ab562fe4.chunk.js",
     "main.js.map": "/red-envelopes/static/js/main.ab562fe4.chunk.js.map",
     "runtime-main.js": "/red-envelopes/static/js/runtime-main.75a5d99c.js",
@@ -10,14 +10,15 @@
     "static/js/3.dc53a6c2.chunk.js": "/red-envelopes/static/js/3.dc53a6c2.chunk.js",
     "static/js/3.dc53a6c2.chunk.js.map": "/red-envelopes/static/js/3.dc53a6c2.chunk.js.map",
     "index.html": "/red-envelopes/index.html",
-    "static/css/main.25d48064.chunk.css.map": "/red-envelopes/static/css/main.25d48064.chunk.css.map",
+    "static/css/main.14fca0fc.chunk.css.map": "/red-envelopes/static/css/main.14fca0fc.chunk.css.map",
     "static/js/2.d2246b4a.chunk.js.LICENSE.txt": "/red-envelopes/static/js/2.d2246b4a.chunk.js.LICENSE.txt",
-    "static/media/register.css": "/red-envelopes/static/media/background.667cc732.png"
+    "static/media/register.css": "/red-envelopes/static/media/background.667cc732.png",
+    "static/media/laisee.css": "/red-envelopes/static/media/red-envelope.8910db9d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.75a5d99c.js",
     "static/js/2.d2246b4a.chunk.js",
-    "static/css/main.25d48064.chunk.css",
+    "static/css/main.14fca0fc.chunk.css",
     "static/js/main.ab562fe4.chunk.js"
   ]
 }
