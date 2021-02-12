@@ -7,11 +7,11 @@ export default function Laisee() {
 
     const config = {
         angle: 90,
-        spread: "24",
+        spread: "25",
         startVelocity: "52",
-        elementCount: "35",
+        elementCount: "50",
         dragFriction: 0.12,
-        duration: "10000",
+        duration: "2500",
         stagger: 3,
         width: "13px",
         height: "11px",
