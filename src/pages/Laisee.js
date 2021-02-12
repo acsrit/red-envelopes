@@ -39,7 +39,7 @@ export default function Laisee() {
         .then(data=>{
             setCompleted(true);
             setPrize(data.prize);
-            if (data.number < 9){
+            if (data.number < 24){
                 deletePrize(data.number)
             }
         });
